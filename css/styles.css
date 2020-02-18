@@ -28,12 +28,17 @@ h5{
 
 h4.card-title {
   margin-bottom: 15px;
+  margin-top: 25px;
 }
 
 .price {
   font-size: 3.5em;
   color: hsl(234, 14%, 30%);
   margin: 0 0 20px 0;
+}
+
+.special-price {
+  margin-bottom: 25px;
 }
 
 .professional-card > h4 {
@@ -79,13 +84,13 @@ h4.card-title {
 .grid-parent {
   margin-top: 60px;
   display: grid;
-  grid-template-columns: repeat(3, 22%);
+  grid-template-columns: repeat(3, 23%);
   justify-content: center;
 }
 
 .card {
   border-radius: 8px;
-  padding: 2% 10%;
+  padding: 0 10%;
   box-shadow: 0px 0px 25px -8px hsl(240, 9%, 76%);
   /* place-self: center start; */
 }
@@ -98,35 +103,35 @@ h4.card-title {
 .professional-card {
   background-image: linear-gradient(to bottom right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
   color: white;
-  height: 105%;
+  height: 108%;
   place-self: center auto;
 }
 
 .button {
   background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
   width: 100%;
-  height: 40px;
+  height: 35px;
   border: none;
   border-radius: 5px;
   color: white;
   padding: 5px 30px;
   text-align: center;
   text-decoration: none;
-  margin-top: 30px;
+  margin: 20px 0 25px 0;
   font-weight: 700;
 }
 
 .professional-button {
   background-color: #ffffff;
   width: 100%;
-  height: 40px;
+  height: 35px;
   border: none;
   border-radius: 5px;
   color: hsl(237, 63%, 64%);
   padding: 5px 30px;
   text-align: center;
   text-decoration: none;
-  margin-top: 30px;
+  margin-top: 15px;
   font-weight: 700;
 }
 
@@ -142,6 +147,22 @@ h4.card-title {
   border: 1px solid hsl(237, 63%, 64%);
 }
 
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
 footer {
   margin-top: 50px;
+}
+
+@media (max-width: 375px){
+  .grid-parent {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    justify-content: center;
+  }
 }
