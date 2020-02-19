@@ -21,13 +21,10 @@
 
   <header>
     <div class="title">
-      <h1>Our Pricing</h1>
+      <h3>Our Pricing</h3>
     </div>
     <div>
-      <h5 class="sub-title">Annually <label class="switch">
-          <input type="checkbox">
-          <span class="slider round"></span>
-        </label>Monthly</h5>
+      <h6 class="sub-title">Annually<label class="switch"><input type="checkbox"><span class="slider round"></span></label>Monthly</h6>
     </div>
 
   </header>
@@ -37,7 +34,8 @@
     <div class="card basic-card">
 
       <h4 class="card-title">Basic</h4>
-      <!-- <h1 class="price"><span>$</span>19.99</h1> -->
+
+      <h1 class="price special-price" style="display: none"><span>$</span>19.99</h1>
       <h1 class="price special-price"><span>$</span>199.99</h1>
       <hr id="hr">
       <h5 class="text">500 GB Storage</h5>
@@ -53,7 +51,7 @@
 
     <div class="card professional-card">
       <h4>Professional</h4>
-      <!-- <h1 class="price"><span>$</span>24.99</h1> -->
+      <h1 class="price" style="display: none"><span>$</span>24.99</h1>
       <h1 class="price"><span>$</span>249.99</h1>
       <hr>
       <h5>1 TB Storage</h5>
@@ -69,8 +67,8 @@
     <div class="card master-card">
 
       <h4 class="card-title">Master</h4>
-      <!-- <h1 class="price"><span>$</span>39.99</h1> -->
-      <h1 class="price  special-price"><span>$</span>399.99</h1>
+      <h1 class="price" style="display: none"><span>$</span>39.99</h1>
+      <h1 class="price"><span>$</span>399.99</h1>
       <hr id="hr">
       <h5 class="text">2 TB Storage</h5>
       <hr>
@@ -90,6 +88,8 @@
       Coded by <a href="#">Beatriz Almeida Pires</a>.
     </div>
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>
