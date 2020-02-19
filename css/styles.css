@@ -14,7 +14,6 @@ html, body {
   letter-spacing: 0.5px;
 }
 
-
 hr {
   height: 1px;
   border: 0;
@@ -87,7 +86,6 @@ h4.card-title {
   border-radius: 8px;
   padding: 0 10%;
   box-shadow: 0px 0px 25px -8px hsl(240, 9%, 76%);
-  /* place-self: center start; */
 }
 
 .basic-card, .master-card {
@@ -231,7 +229,7 @@ footer {
   color: grey;
 }
 
-/* ------------ Mobile View ------------*/
+/* ------------ Mobile View: When the screen size is 800px or lower do this: ------------*/
 @media screen and (max-width: 800px) {
   body {
     background-image: url("../images/bg-top.svg");
